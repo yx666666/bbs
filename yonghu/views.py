@@ -35,35 +35,36 @@ def register(request):
 
 
 def login(request):
-#     if request.method == 'POST':
-#         nickname = request.POST.get("nickname")
-#         password = request.POST.get("password")
+    if request.method == 'POST':
+        nickname = request.POST.get("nickname")
+        password = request.POST.get("password")
+
+        try:
+            user = User.objects.get(nickname=nickname)
+        except User.DoesNotExist:
+            return render(request, 'login.html',
+                          # {'error': '用户不存在', 'auth_url': settings.WB_AUTH_URL})
+                          {'error':'用户不存在'})
 #
-#         try:
-#             user = User.objects.get(nickname=nickname)
-#         except User.DoesNotExist:
-#             return render(request, 'login.html',
-#                           {'error': '用户不存在', 'auth_url': settings.WB_AUTH_URL})
-#
-#         if check_password(password, user.password):
-#             # 记录登陆状态
-#             request.session['uid'] = user.id
-#             request.session['nickname'] = user.nickname
-#             request.session['avatar'] = user.avatar
-#             return redirect('/user/info/')
-#         else:
-#             return render(request, 'login.html',
-#                           {'error': '用户密码错误', 'auth_url': settings.WB_AUTH_URL})
-#     else:
+        if check_password(password, user.password):
+            # 记录登陆状态
+            request.session['uid'] = user.id
+            request.session['nickname'] = user.nickname
+            request.session['avatar'] = user.icon.url
+            return redirect('/user/info/')
+        else:
+            return render(request, 'login.html',
+                          # {'error': '用户密码错误', 'auth_url': settings.WB_AUTH_URL})
+                          {'error': '用户不存在'})
+    else:
 #         return render(request, 'login.html', {'auth_url': settings.WB_AUTH_URL})
-#
-#
+        return render(request, 'login.html')
+
 def logout(request):
-    pass
-#     request.session.flush()
-#     return redirect('/user/login/')
-#
-#
+    request.session.flush()
+    return redirect('/user/login/')
+
+
 # # @login_required
 def user_info(request):
     uid = request.session.get('uid')
