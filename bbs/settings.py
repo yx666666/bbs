@@ -20,12 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '2$@ha*j@+y#8-%vf5f_9p^=70t-)g2@gd8ldd8zb1hj262%i&1'
+SECRET_KEY = 'xv5%72m)8&xni^q%&#5pu$$p%+j-c-t&$bz_i!*ma^s5&7qve7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,16 +37,18 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'post',
+    'yonghu',
 ]
 
-MIDDLEWARE = [
-    'django.middleware.security.SecurityMiddleware',
-    'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
-    'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+MIDDLEWARE_CLASSES = [
+    'django.middleware.security.SecurityMiddleware',         # |  process_request   process_response  ^
+    'django.contrib.sessions.middleware.SessionMiddleware',  # |  process_request   process_response  |
+    'django.middleware.common.CommonMiddleware',             # |  process_request   process_response  |
+    'django.middleware.csrf.CsrfViewMiddleware',             # V  process_request   process_response  |
+    # 'common.middleware.simple_middleware'
+    # 'common.middleware.BlockSpiderMiddleware',
 ]
 
 ROOT_URLCONF = 'bbs.urls'
@@ -60,8 +62,6 @@ TEMPLATES = [
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
             ],
         },
     },
@@ -117,4 +117,13 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/statics/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "statics"),
+]
+
+
+
+MEDIA_ROOT = 'medias'
+MEDIA_URL = '/medias/'
+
