@@ -15,6 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from post import views as post_view
+from yonghu import views as user_view
+
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     url(r'^$', post_view.post_list),
@@ -24,4 +28,10 @@ urlpatterns = [
     url(r'^post/read/', post_view.read_post),
     url(r'^post/delete/', post_view.delete_post),
     url(r'^post/search/', post_view.search),
+
+    url(r'^user/register/', user_view.register),
+    url(r'^user/login/', user_view.login),
+    url(r'^user/logout/', user_view.logout),
+    url(r'^user/info/', user_view.user_info),
 ]
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
