@@ -5,6 +5,7 @@ from __future__ import division
 from django.shortcuts import render,redirect
 from post.models import Post
 from math import ceil
+from django.core.cache import cache
 
 # Create your views here.
 
@@ -36,6 +37,9 @@ def edit_post(request):
         post.title = request.POST.get('title')
         post.content = request.POST.get('content')
         post.save()
+        #修改数据后，需要更新一下缓存
+        key = 'Post-%s' % post_id
+        cache.set(key, post)
         return redirect('/post/read/?post_id=%s' % post.id)
 
     else:
@@ -47,7 +51,14 @@ def edit_post(request):
 
 def read_post(request):
     post_id = int(request.GET.get('post_id'))
-    post = Post.objects.get(pk=post_id)
+    #设置缓存标识
+    key = 'Post-%s' % post_id
+    #首先从缓存中获取key
+    post = cache.get(key)
+    #如果没有获取到，就从数据库中获取，并存到数据库中。
+    if post is None:
+        post = Post.objects.get(pk=post_id)
+        cache.set(key,post)
 
     return render(request,'read_post.html',{'post':post})
 def delete_post(request):

@@ -69,6 +69,26 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'bbs.wsgi.application'
 
+#将session保存在缓存中。
+SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
+
+# Cache
+#将缓存保存在redis数据库中。
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/3",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+            "PICKLE_VERSION": -1,
+        }
+    }
+}
+REDIS = {
+    'host': 'localhost',
+    'port': 6379,
+    'db': 3
+}
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
