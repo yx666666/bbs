@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Django settings for bbs project.
 
@@ -13,6 +14,8 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+from urllib import urlencode
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -31,24 +34,23 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
-    'django.contrib.messages',
     'django.contrib.staticfiles',
     'post',
     'yonghu',
 ]
 
-
+#中间件执行顺序，request,从上到下。
+#response从下到上
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',         # |  process_request   process_response  ^
     'django.contrib.sessions.middleware.SessionMiddleware',  # |  process_request   process_response  |
     'django.middleware.common.CommonMiddleware',             # |  process_request   process_response  |
     'django.middleware.csrf.CsrfViewMiddleware',             # V  process_request   process_response  |
     # 'common.middleware.simple_middleware'
-    # 'common.middleware.BlockSpiderMiddleware',
+    #限制访问频次
+    'common.middleware.BlockSpiderMiddleware',
 ]
 
 ROOT_URLCONF = 'bbs.urls'
@@ -69,6 +71,27 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'bbs.wsgi.application'
 
+#将session保存在缓存中。
+SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
+
+# Cache
+#将缓存保存在redis数据库中。
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/3",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+            "PICKLE_VERSION": -1,
+        }
+    }
+}
+#全局配置redis,全局都可以使用，common
+REDIS = {
+    'host': 'localhost',
+    'port': 6379,
+    'db': 3
+}
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
@@ -127,3 +150,35 @@ STATICFILES_DIRS = [
 MEDIA_ROOT = 'medias'
 MEDIA_URL = '/medias/'
 
+# WeiBo OAuth
+WB_APP_KEY = '669360076' #id
+WB_APP_SECRET = 'ff776d926974f2f3ed0b3ccca5306dfb'#通信过程中的加密
+WB_CALLBACK = 'http://188.131.214.221:8000/weibo/callback/'#授权回调页
+
+
+# auth api
+WB_AUTH_API = 'https://api.weibo.com/oauth2/authorize'
+WB_AUTH_ARGS = {
+    'client_id': WB_APP_KEY, #id
+    'redirect_uri': WB_CALLBACK, #授权回调页
+    # 'response_type': 'code', '没有用>?>?>?>'
+}
+# urlencode，对url进行编码，防止产生歧义。这个页面是有id和编码后的参数拼接而成。
+WB_AUTH_URL = '%s?%s' % (WB_AUTH_API, urlencode(WB_AUTH_ARGS))  # 引导用户完成授权的页面
+
+# access token api
+WB_ACCESS_TOKEN_API = 'https://api.weibo.com/oauth2/access_token'
+WB_ACCESS_TOKEN_ARGS = {
+    'client_id': WB_APP_KEY,
+    'client_secret': WB_APP_SECRET,
+    'redirect_uri': WB_CALLBACK,
+    'grant_type': 'authorization_code',
+    'code': None, #需要单独传进来的。
+}
+
+# users show api
+WB_USER_SHOW_API = 'https://api.weibo.com/2/users/show.json'
+WB_USER_SHOW_ARGS = {
+    'access_token': None,#这两个参数需要后边传入
+    'uid': None,
+}
