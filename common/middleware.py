@@ -1,11 +1,26 @@
+# -*- coding: utf-8 -*-
 import time
 
-from __future__ import unicode_literals
+
 from django.core.cache import cache
 from django.shortcuts import render
-from django.utils.deprecation import MiddlewareMixin
 
+class MiddlewareMixin(object):
+    def __init__(self, get_response=None):
+        self.get_response = get_response
+        super(MiddlewareMixin, self).__init__()
 
+    def __call__(self, request):
+        response = None
+        if hasattr(self, 'process_request'):
+            response = self.process_request(request)
+        if not response:
+            response = self.get_response(request)
+        if hasattr(self, 'process_response'):
+            response = self.process_response(request, response)
+        return response
+
+#中间件其实就是一个装饰器。多个中间件就是多个装饰器，相当于套在函数头上。
 def simple_middleware(view):
     def wrapper(request):
         print(111)
@@ -43,6 +58,7 @@ class BlockSpiderMiddleware(MiddlewareMixin):
 
         # 取出当前时间，及历史访问时间
         now = time.time()
+        #获取不到key，给个默认值，如果时限制每秒五次，改这个默认值为五个，或者其他个即可。
         request_history = cache.get(request_key, [0] * 3)
 
         # 检查与最早访问时间的间隔

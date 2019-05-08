@@ -41,14 +41,16 @@ INSTALLED_APPS = [
     'yonghu',
 ]
 
-
+#中间件执行顺序，request,从上到下。
+#response从下到上
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',         # |  process_request   process_response  ^
     'django.contrib.sessions.middleware.SessionMiddleware',  # |  process_request   process_response  |
     'django.middleware.common.CommonMiddleware',             # |  process_request   process_response  |
     'django.middleware.csrf.CsrfViewMiddleware',             # V  process_request   process_response  |
     # 'common.middleware.simple_middleware'
-    # 'common.middleware.BlockSpiderMiddleware',
+    #限制访问频次
+    'common.middleware.BlockSpiderMiddleware',
 ]
 
 ROOT_URLCONF = 'bbs.urls'
