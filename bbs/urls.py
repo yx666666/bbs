@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """bbs URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -29,14 +28,10 @@ urlpatterns = [
     url(r'^post/read/', post_view.read_post),
     url(r'^post/delete/', post_view.delete_post),
     url(r'^post/search/', post_view.search),
-    url(r'^post/top10/', post_view.top10),
 
     url(r'^user/register/', user_view.register),
     url(r'^user/login/', user_view.login),
     url(r'^user/logout/', user_view.logout),
     url(r'^user/info/', user_view.user_info),
-
-    url(r'^weibo/callback/', user_view.weibo_callback),
 ]
-#用于上传头像
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
