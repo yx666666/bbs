@@ -42,7 +42,6 @@ def login(request):
     if request.method == 'POST':
         nickname = request.POST.get("nickname")
         password = request.POST.get("password")
-        print settings.WB_AUTH_URL
         try:
             user = User.objects.get(nickname=nickname)
         except User.DoesNotExist:

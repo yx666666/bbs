@@ -84,6 +84,7 @@ CACHES = {
         }
     }
 }
+#全局配置redis,全局都可以使用，common
 REDIS = {
     'host': 'localhost',
     'port': 6379,
