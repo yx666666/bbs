@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 from django.core.cache import cache
 
-# from common import rds
+from django.shortcuts import render,redirect
 from post.models import Post
 from common import rds
+from yonghu.models import User
 
 
 def page_cache(timeout):
@@ -15,12 +16,12 @@ def page_cache(timeout):
             key = 'PageCache-%s-%s' % (request.session.session_key, request.get_full_path())
             response = cache.get(key)
 
-            print('get from cache: %s' % response)
+            # print('get from cache: %s' % response)
             if response is None:
                 response = view_func(request)
-                print('get from view: %s' % response)
+                # print('get from view: %s' % response)
                 cache.set(key, response, timeout)
-                print('set to cache')
+                # print('set to cache')
             return response
         return wrapper
     return deco
@@ -33,7 +34,9 @@ def read_counter(read_view):
         # 状态码为 200 时进行计数，状态码在response里边。
         if response.status_code == 200:
             post_id = int(request.GET.get('post_id'))
+            #ReadRank,自增1，如果没有ReadRank会创建，如果post_id不存在，会自动加进去。
             rds.zincrby('ReadRank', post_id)
+
         return response
     return wrapper
 
@@ -90,3 +93,28 @@ def get_top_n(num):
     #     item[0] = posts[item[0]]
 
     return cleaned
+
+#检查是否登陆装饰器，很麻烦，可以写到中间件中。
+def login_required(view_func):
+    def check(request):
+        # 检查 Session 里是否有 uid
+        if 'uid' in request.session:
+            return view_func(request)
+        else:
+            return redirect('/user/login/')
+    return check
+
+
+# def check_perm(perm_name):
+#     '''检查用户是否具有某种权限'''
+#     def check(view_func):
+#         def wrapper(request):
+#             uid = request.session['uid']
+#             user = User.objects.get(id=uid)
+#
+#             if user.has_perm(perm_name):
+#                 return view_func(request)
+#             else:
+#                 return render(request, 'blockers.html')
+#         return wrapper
+#     return check

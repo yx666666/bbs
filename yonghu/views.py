@@ -9,6 +9,7 @@ from django.shortcuts import render,redirect
 from yonghu.forms import RegisterForm
 from yonghu.models import User
 from django.contrib.auth.hashers import make_password,check_password
+from yonghu.helper import login_required
 
 # Create your views here.
 def register(request):
@@ -65,7 +66,7 @@ def logout(request):
     request.session.flush()
     return redirect('/user/login/')
 
-# # @login_required
+@login_required
 def user_info(request):
     uid = request.session.get('uid')
     user = User.objects.get(id=uid)

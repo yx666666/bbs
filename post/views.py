@@ -3,10 +3,12 @@ from __future__ import unicode_literals
 #修改被除数带小数点，防止两数相除默认取整
 from __future__ import division
 from django.shortcuts import render,redirect
-from post.models import Post
+from post.models import Post,Comment
+
 from math import ceil
 from post.helper import page_cache,read_counter,get_top_n
-
+from yonghu.helper import login_required
+import time
 # Create your views here.
 
 #缓存时间
@@ -17,20 +19,31 @@ def post_list(request):
     per_page = 10
     start = (page - 1) * per_page
     end = start + per_page
-    posts = Post.objects.all()[start:end]
+    #帖子id，越晚生成的，都在后边，id越大，加上-的，就是新的在前边了。
+    posts = Post.objects.all().order_by('-id')[start:end]
+
     tatal = Post.objects.count() #总的帖子数。
     pages = int(ceil(tatal / per_page))#总页数
 
+    #获取当前用户所有发表的帖子。
+    # uid = request.session.get('uid')
+    # wposts = Post.objects.filter(uid=uid)
+    # cd = len(wposts.values())
+
+
     return render(request,'post_list.html',{'posts':posts,'pages':xrange(pages)})
 
+@login_required
 def create_post(request):
     if request.method == 'POST':
+        uid = request.session.get('uid')
         title = request.POST.get('title')
         content = request.POST.get('content')
-        post = Post.objects.create(title=title,content=content)
+        post = Post.objects.create(uid=uid,title=title,content=content)
         return redirect('/post/read/?post_id=%s' % post.id)
     return render(request,'create_post.html',{})
 
+@login_required
 def edit_post(request):
     if request.method == 'POST':
         post_id = int(request.POST.get('post_id'))
@@ -51,6 +64,7 @@ def read_post(request):
     post = Post.objects.get(pk=post_id)
     return render(request,'read_post.html',{'post':post})
 
+@login_required
 def delete_post(request):
     post_id = int(request.GET.get('post_id'))
     Post.objects.get(pk=post_id).delete()
@@ -69,3 +83,20 @@ def top10(request):
     # ]
     rank_data = get_top_n(10)
     return render(request, 'top10.html', {'rank_data': rank_data})
+
+@login_required
+def comment(request):
+    uid = request.session['uid']
+    post_id = request.POST.get('post_id')
+    content = request.POST.get('content')
+    Comment.objects.create(uid=uid, post_id=post_id, content=content)
+    return redirect('/post/read/?post_id=%s' % post_id)
+
+
+#前端限制了，如果帖子id与用户不一样的时候，没有删除功能
+@login_required
+def del_comment(request):
+    comment_id = int(request.GET.get('comment_id'))
+    Comment.objects.get(id=comment_id).delete()
+    post_id = int(request.GET.get('post_id'))
+    return redirect('/post/read/?post_id=%s' % post_id)
