@@ -21,13 +21,13 @@ class MiddlewareMixin(object):
         return response
 
 #中间件其实就是一个装饰器。多个中间件就是多个装饰器，相当于套在函数头上。
-def simple_middleware(view):
-    def wrapper(request):
-        print(111)
-        response = view(request)
-        print(2222)
-        return response
-    return wrapper
+# def simple_middleware(view):
+#     def wrapper(request):
+#         print(111)
+#         response = view(request)
+#         print(2222)
+#         return response
+#     return wrapper
 
 
 class BlockSpiderMiddleware(MiddlewareMixin):
@@ -59,16 +59,20 @@ class BlockSpiderMiddleware(MiddlewareMixin):
         # 取出当前时间，及历史访问时间
         now = time.time()
         #获取不到key，给个默认值，如果时限制每秒五次，改这个默认值为五个，或者其他个即可。
-        request_history = cache.get(request_key, [0] * 3)
+        # cache.delete(request_key)
+        request_history = cache.get(request_key, [0] * 10)
 
         # 检查与最早访问时间的间隔
+        #这里弹出一个数据，request_history会少一个，但是如果不重新设置request_key
+        #的话，不会影响缓存中列表的长度，所以，不会减少。
         if now - request_history.pop(0) >= 1:
-            print('更新访问时间')
+            # print('更新访问时间')
             request_history.append(now)              # 滚动更新时间
-            cache.set(request_key, request_history)  # 将时间存入缓存
+            cache.set(request_key, request_history,86400)  # 将时间存入缓存
             return
         else:
             # 访问超过限制，将用户 IP 加入缓存
             print('访问频率超过限制')
-            cache.set(block_key, True, 86400)  # 封禁用户 24 小时
+            cache.set(block_key, True, 3)  # 封禁用户 24 小时
+
             return render(request, 'blockers.html')
