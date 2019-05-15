@@ -32,7 +32,7 @@ urlpatterns = [
     url(r'^post/top10/', post_view.top10),
     url(r'^post/comment/', post_view.comment),
     url(r'^post/del_comment/', post_view.del_comment),
-    # url(r'^post/tag/', post_view.tag_filter),
+    url(r'^post/tag/', post_view.tag_filter),
 
     url(r'^user/register/', user_view.register),
     url(r'^user/login/', user_view.login),

@@ -55621,3 +55621,1662 @@ set to cache
 [09/May/2019 20:29:25] "GET /post/top10/ HTTP/1.1" 200 2160
 [09/May/2019 20:29:28] "GET / HTTP/1.1" 200 4784
 [09/May/2019 20:29:28] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 20:30:53] "GET /post/read/?post_id=25 HTTP/1.1" 200 3227
+[09/May/2019 20:30:53] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 20:31:46] "GET / HTTP/1.1" 200 4784
+[09/May/2019 20:31:46] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 20:31:55] "GET /user/info/ HTTP/1.1" 200 3472
+[09/May/2019 20:31:55] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 20:39:19] "GET / HTTP/1.1" 200 4533
+[09/May/2019 20:39:26] "GET /statics/img/icon.png HTTP/1.1" 304 0
+[09/May/2019 20:39:33] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 20:39:36] "GET /statics/img/favicon.ico HTTP/1.1" 304 0
+[09/May/2019 20:39:42] "GET /post/read/?post_id=16 HTTP/1.1" 200 2943
+[09/May/2019 20:39:43] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 20:39:48] "GET / HTTP/1.1" 200 4533
+[09/May/2019 20:39:48] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 21:07:18] "GET /?nsukey=2XZ6BWojaTQorUKVuV8WWWZVI29Wr4ZB%2BxWHoqNZezCaVSx73WSqAV%2BuxXYedqLpQZcPCfu9fhB0MiSONrXM8frGJ4ibIvgJGFBXKkIOQebk99yxGgrru7gfS%2F9xcM27A4XGQuubd9OpeEp3825V7fx3EHmyZEsN22BwumIn35cb7FWpcu2HD10Nph%2BhcB%2FwVMb9i1gvtYs4XG%2BXzL1V2Q%3D%3D HTTP/1.1" 200 4533
+[09/May/2019 21:07:19] "GET /statics/img/icon.png HTTP/1.1" 304 0
+[09/May/2019 21:07:19] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 21:07:19] "GET /statics/img/favicon.ico HTTP/1.1" 304 0
+[09/May/2019 21:07:46] "GET /post/list/?page=2 HTTP/1.1" 200 3732
+[09/May/2019 21:07:46] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 21:07:55] "GET /post/list/?page=1 HTTP/1.1" 200 4533
+[09/May/2019 21:07:55] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 21:08:04] "GET /post/create/ HTTP/1.1" 302 0
+[09/May/2019 21:08:04] "GET /user/login/ HTTP/1.1" 200 3347
+[09/May/2019 21:08:04] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 21:08:19] "GET /?nsukey=2XZ6BWojaTQorUKVuV8WWWZVI29Wr4ZB%2BxWHoqNZezCaVSx73WSqAV%2BuxXYedqLpQZcPCfu9fhB0MiSONrXM8frGJ4ibIvgJGFBXKkIOQebk99yxGgrru7gfS%2F9xcM27A4XGQuubd9OpeEp3825V7fx3EHmyZEsN22BwumIn35cb7FWpcu2HD10Nph%2BhcB%2FwVMb9i1gvtYs4XG%2BXzL1V2Q%3D%3D HTTP/1.1" 200 4533
+[09/May/2019 21:08:19] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 21:08:47] "GET /post/list/?page=2 HTTP/1.1" 200 3732
+[09/May/2019 21:08:48] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 21:08:55] "GET /post/list/?page=1 HTTP/1.1" 200 4533
+[09/May/2019 21:08:55] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 21:09:16] "POST /user/login/ HTTP/1.1" 200 3582
+[09/May/2019 21:09:16] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 21:09:19] "GET /user/register/ HTTP/1.1" 200 4153
+[09/May/2019 21:09:19] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 21:09:50] "POST /user/register/ HTTP/1.1" 200 4551
+[09/May/2019 21:09:51] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 21:10:19] "GET /user/register HTTP/1.1" 301 0
+[09/May/2019 21:10:43] "POST /user/register/ HTTP/1.1" 302 0
+[09/May/2019 21:10:43] "GET /user/info/ HTTP/1.1" 200 3465
+[09/May/2019 21:10:43] "GET /medias/1557226965259.webp HTTP/1.1" 200 11806
+[09/May/2019 21:10:44] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 21:10:53] "GET /post/create/ HTTP/1.1" 200 3403
+[09/May/2019 21:10:53] "GET /medias/1557226965259.webp HTTP/1.1" 304 0
+[09/May/2019 21:10:54] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 21:11:21] "POST /post/create/ HTTP/1.1" 302 0
+[09/May/2019 21:11:22] "GET /post/read/?post_id=26 HTTP/1.1" 200 3248
+[09/May/2019 21:11:22] "GET /medias/1557226965259.webp HTTP/1.1" 304 0
+[09/May/2019 21:11:22] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 21:11:26] "GET /post/create/ HTTP/1.1" 200 3403
+[09/May/2019 21:11:33] "GET /user/register/ HTTP/1.1" 200 4401
+[09/May/2019 21:11:44] "GET /user/info HTTP/1.1" 301 0
+[09/May/2019 21:12:22] "GET /post/read/?post_id=26 HTTP/1.1" 200 2893
+[09/May/2019 21:12:23] "GET /post/top10/ HTTP/1.1" 200 2160
+[09/May/2019 21:34:08] "GET / HTTP/1.1" 200 4528
+[09/May/2019 21:34:08] "GET / HTTP/1.1" 200 4528
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[09/May/2019 23:53:51] "GET / HTTP/1.0" 400 61970
+Not Found: /http:/10.177.152.217/proxy.html
+[10/May/2019 00:16:01] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[10/May/2019 00:16:01] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[10/May/2019 00:16:01] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[10/May/2019 00:16:02] code 400, message Bad request syntax ('\x05\x01\x00')
+[10/May/2019 00:16:02] " " 400 -
+[10/May/2019 02:34:26] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+Not Found: /http:/10.177.152.217/proxy.html
+[10/May/2019 04:17:21] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[10/May/2019 04:17:21] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[10/May/2019 04:17:22] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[10/May/2019 04:17:22] code 400, message Bad request syntax ('\x05\x01\x00')
+[10/May/2019 04:17:22] " " 400 -
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[10/May/2019 04:47:00] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[10/May/2019 05:06:15] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[10/May/2019 05:06:15] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[10/May/2019 05:06:16] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[10/May/2019 05:06:16] code 400, message Bad request syntax ('\x05\x01\x00')
+[10/May/2019 05:06:16] " " 400 -
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[10/May/2019 09:54:53] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[10/May/2019 10:15:54] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[10/May/2019 10:15:54] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[10/May/2019 10:15:54] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[10/May/2019 10:15:55] code 400, message Bad request syntax ('\x05\x01\x00')
+[10/May/2019 10:15:55] " " 400 -
+[10/May/2019 14:29:12] "GET / HTTP/1.1" 200 4779
+[10/May/2019 14:29:12] "GET /medias/timg_55OE5cs.jpg HTTP/1.1" 304 0
+[10/May/2019 14:35:25] "GET / HTTP/1.1" 200 4779
+[10/May/2019 14:35:26] "GET /post/top10/ HTTP/1.1" 200 2160
+[10/May/2019 14:35:28] "GET /post/read/?post_id=26 HTTP/1.1" 200 3144
+[10/May/2019 14:35:28] "GET /post/top10/ HTTP/1.1" 200 2160
+[10/May/2019 14:35:34] "GET / HTTP/1.1" 200 4779
+[10/May/2019 14:35:34] "GET /post/top10/ HTTP/1.1" 200 2160
+[10/May/2019 14:35:36] "GET /post/read/?post_id=26 HTTP/1.1" 200 3144
+[10/May/2019 14:35:36] "GET /post/top10/ HTTP/1.1" 200 2160
+[10/May/2019 14:35:48] "POST /post/comment/ HTTP/1.1" 302 0
+[10/May/2019 14:35:48] "GET /post/read/?post_id=26 HTTP/1.1" 200 3498
+[10/May/2019 14:35:48] "GET /post/top10/ HTTP/1.1" 200 2160
+[10/May/2019 14:35:54] "GET / HTTP/1.1" 200 4779
+[10/May/2019 14:35:54] "GET /post/top10/ HTTP/1.1" 200 2160
+[10/May/2019 14:35:56] "GET /post/read/?post_id=26 HTTP/1.1" 200 3498
+[10/May/2019 14:35:56] "GET /post/top10/ HTTP/1.1" 200 2160
+[10/May/2019 14:36:04] "GET / HTTP/1.1" 200 4779
+[10/May/2019 14:36:04] "GET /post/top10/ HTTP/1.1" 200 2160
+[10/May/2019 14:36:05] "GET /post/read/?post_id=25 HTTP/1.1" 200 3227
+[10/May/2019 14:36:05] "GET /post/top10/ HTTP/1.1" 200 2160
+[10/May/2019 14:36:06] "GET / HTTP/1.1" 200 4779
+[10/May/2019 14:36:06] "GET /post/top10/ HTTP/1.1" 200 2160
+[10/May/2019 14:36:07] "GET /post/read/?post_id=24 HTTP/1.1" 200 3220
+[10/May/2019 14:36:07] "GET /post/top10/ HTTP/1.1" 200 2160
+[10/May/2019 14:36:08] "GET / HTTP/1.1" 200 4779
+[10/May/2019 14:36:09] "GET /post/top10/ HTTP/1.1" 200 2160
+[10/May/2019 14:36:09] "GET /post/read/?post_id=23 HTTP/1.1" 200 3220
+[10/May/2019 14:36:09] "GET /post/top10/ HTTP/1.1" 200 2160
+[10/May/2019 14:36:10] "GET / HTTP/1.1" 200 4779
+[10/May/2019 14:36:10] "GET /post/top10/ HTTP/1.1" 200 2160
+[10/May/2019 14:36:11] "GET /post/read/?post_id=15 HTTP/1.1" 200 3190
+[10/May/2019 14:36:11] "GET /post/top10/ HTTP/1.1" 200 2160
+[10/May/2019 14:36:12] "GET / HTTP/1.1" 200 4779
+[10/May/2019 14:36:13] "GET /post/top10/ HTTP/1.1" 200 2160
+[10/May/2019 14:36:13] "GET /post/read/?post_id=16 HTTP/1.1" 200 3194
+[10/May/2019 14:36:13] "GET /post/top10/ HTTP/1.1" 200 2160
+[10/May/2019 14:36:14] "GET / HTTP/1.1" 200 4779
+[10/May/2019 14:36:14] "GET /post/top10/ HTTP/1.1" 200 2160
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[10/May/2019 14:58:24] "GET / HTTP/1.0" 400 61971
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[10/May/2019 15:03:15] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x10\x04\x01.\x05\x00\x00\x00\x00\x81I\xa8\xc0\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x81 in position 25: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+Not Found: /http:/10.177.152.217/proxy.html
+[10/May/2019 15:16:56] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[10/May/2019 15:16:56] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[10/May/2019 15:16:57] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[10/May/2019 15:16:57] code 400, message Bad request syntax ('\x05\x01\x00')
+[10/May/2019 15:16:57] " " 400 -
+[10/May/2019 15:49:48] "GET / HTTP/1.1" 200 4528
+[10/May/2019 15:49:48] "GET / HTTP/1.1" 200 4528
+[10/May/2019 18:10:12] "GET / HTTP/1.1" 200 4528
+[10/May/2019 18:10:13] "GET / HTTP/1.1" 200 4528
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[10/May/2019 19:54:37] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[10/May/2019 20:19:54] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[10/May/2019 20:19:54] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[10/May/2019 20:19:54] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[10/May/2019 20:19:55] code 400, message Bad request syntax ('\x05\x01\x00')
+[10/May/2019 20:19:55] " " 400 -
+Not Found: /http:/10.177.152.217/proxy.html
+[11/May/2019 00:02:57] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[11/May/2019 00:02:57] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[11/May/2019 00:02:58] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[11/May/2019 00:02:58] code 400, message Bad request syntax ('\x05\x01\x00')
+[11/May/2019 00:02:58] " " 400 -
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[11/May/2019 00:42:01] "GET / HTTP/1.0" 400 61971
+[11/May/2019 01:04:59] "GET / HTTP/1.1" 200 4528
+Not Found: /HNAP1/
+[11/May/2019 01:04:59] "GET /HNAP1/ HTTP/1.1" 404 3656
+Not Found: /http:/10.177.152.217/proxy.html
+[11/May/2019 01:18:59] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[11/May/2019 01:18:59] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[11/May/2019 01:19:00] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[11/May/2019 01:19:00] code 400, message Bad request syntax ('\x05\x01\x00')
+[11/May/2019 01:19:00] " " 400 -
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Not Found: /http:/10.177.152.217/proxy.html
+[11/May/2019 05:14:15] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[11/May/2019 05:14:15] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[11/May/2019 05:14:15] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[11/May/2019 05:14:16] code 400, message Bad request syntax ('\x05\x01\x00')
+[11/May/2019 05:14:16] " " 400 -
+Not Found: /http:/112.124.42.80:63435/
+[11/May/2019 05:38:09] "HEAD http://112.124.42.80:63435/ HTTP/1.1" 404 1685
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[11/May/2019 05:42:00] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[11/May/2019 06:08:58] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[11/May/2019 06:08:58] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[11/May/2019 06:08:58] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[11/May/2019 06:08:59] code 400, message Bad request syntax ('\x05\x01\x00')
+[11/May/2019 06:08:59] " " 400 -
+Not Found: /http:/10.177.152.217/proxy.html
+[11/May/2019 10:13:14] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[11/May/2019 10:13:14] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[11/May/2019 10:13:15] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[11/May/2019 10:13:15] code 400, message Bad request syntax ('\x05\x01\x00')
+[11/May/2019 10:13:15] " " 400 -
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[11/May/2019 10:34:11] "GET / HTTP/1.0" 400 61971
+[11/May/2019 10:56:39] "GET / HTTP/1.0" 200 4528
+[11/May/2019 11:00:24] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b\xa8\xc0\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x80 in position 25: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+Not Found: /http:/10.177.152.217/proxy.html
+[11/May/2019 11:03:08] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[11/May/2019 11:03:08] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[11/May/2019 11:03:08] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[11/May/2019 11:03:09] code 400, message Bad request syntax ('\x05\x01\x00')
+[11/May/2019 11:03:09] " " 400 -
+Not Found: /http:/10.177.152.217/proxy.html
+[11/May/2019 15:22:04] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[11/May/2019 15:22:04] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[11/May/2019 15:22:05] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[11/May/2019 15:22:05] code 400, message Bad request syntax ('\x05\x01\x00')
+[11/May/2019 15:22:05] " " 400 -
+[11/May/2019 15:28:20] "GET / HTTP/1.1" 200 4528
+[11/May/2019 15:28:20] "GET / HTTP/1.1" 200 4528
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[11/May/2019 15:31:43] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[11/May/2019 16:04:22] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[11/May/2019 16:04:22] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[11/May/2019 16:04:23] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[11/May/2019 16:04:23] code 400, message Bad request syntax ('\x05\x01\x00')
+[11/May/2019 16:04:23] " " 400 -
+[11/May/2019 17:12:35] code 400, message Bad request syntax ('\x16\x03\x01\x01,\x01\x00\x01(\x03\x03A\x13Q\xb3s\xbc\xc02!g\x93R5\xf3f5\x19,\x93\x0f+X\xe8\xb9\x0fd\x87\xb9Y\xb2f\x9b\x00\x00\xaa\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0')
+[11/May/2019 17:12:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[11/May/2019 18:17:22] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[11/May/2019 18:17:22] "    c                           " 400 -
+[11/May/2019 19:24:16] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[11/May/2019 19:24:16] "    c                           " 400 -
+Not Found: /http:/10.177.152.217/proxy.html
+[11/May/2019 20:11:53] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[11/May/2019 20:11:53] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[11/May/2019 20:11:54] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[11/May/2019 20:11:55] code 400, message Bad request syntax ('\x05\x01\x00')
+[11/May/2019 20:11:55] " " 400 -
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[11/May/2019 20:33:58] "GET / HTTP/1.0" 400 61971
+[11/May/2019 20:53:59] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0e\xe0\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+Not Found: /http:/10.177.152.217/proxy.html
+[11/May/2019 21:08:08] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[11/May/2019 21:08:08] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[11/May/2019 21:08:08] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[11/May/2019 21:08:09] code 400, message Bad request syntax ('\x05\x01\x00')
+[11/May/2019 21:08:09] " " 400 -
+[11/May/2019 22:14:02] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[11/May/2019 22:14:02] "    c                           " 400 -
+[11/May/2019 23:12:14] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[11/May/2019 23:12:14] "    c                           " 400 -
+[12/May/2019 00:12:41] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[12/May/2019 00:12:41] "    c                           " 400 -
+Not Found: /http:/10.177.152.217/proxy.html
+[12/May/2019 01:04:31] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[12/May/2019 01:04:31] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[12/May/2019 01:04:32] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[12/May/2019 01:04:32] code 400, message Bad request syntax ('\x05\x01\x00')
+[12/May/2019 01:04:32] " " 400 -
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[12/May/2019 01:30:34] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[12/May/2019 02:07:30] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[12/May/2019 02:07:30] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[12/May/2019 02:07:31] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[12/May/2019 02:07:32] code 400, message Bad request syntax ('\x05\x01\x00')
+[12/May/2019 02:07:32] " " 400 -
+Not Found: /http:/10.177.152.217/proxy.html
+[12/May/2019 06:05:01] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[12/May/2019 06:05:01] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[12/May/2019 06:05:02] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[12/May/2019 06:05:02] code 400, message Bad request syntax ('\x05\x01\x00')
+[12/May/2019 06:05:02] " " 400 -
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[12/May/2019 06:43:57] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[12/May/2019 07:13:52] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[12/May/2019 07:13:52] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[12/May/2019 07:13:53] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[12/May/2019 07:13:53] code 400, message Bad request syntax ('\x05\x01\x00')
+[12/May/2019 07:13:53] " " 400 -
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[12/May/2019 11:56:20] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[12/May/2019 12:08:06] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[12/May/2019 12:08:07] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[12/May/2019 12:08:07] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[12/May/2019 12:08:08] code 400, message Bad request syntax ('\x05\x01\x00')
+[12/May/2019 12:08:08] " " 400 -
+[12/May/2019 15:23:35] "GET / HTTP/1.1" 200 4528
+[12/May/2019 15:23:35] "GET / HTTP/1.1" 200 4528
+Not Found: /http:/10.177.152.217/proxy.html
+[12/May/2019 16:20:07] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[12/May/2019 16:20:07] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[12/May/2019 16:20:07] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[12/May/2019 16:20:08] code 400, message Bad request syntax ('\x05\x01\x00')
+[12/May/2019 16:20:08] " " 400 -
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[12/May/2019 16:45:07] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[12/May/2019 17:17:00] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[12/May/2019 17:17:00] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[12/May/2019 17:17:01] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[12/May/2019 17:17:01] code 400, message Bad request syntax ('\x05\x01\x00')
+[12/May/2019 17:17:01] " " 400 -
+[12/May/2019 17:40:53] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[12/May/2019 17:40:53] "    c                           " 400 -
+[12/May/2019 18:56:00] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[12/May/2019 18:56:00] "    c                           " 400 -
+Not Found: /http:/10.177.152.217/proxy.html
+[12/May/2019 21:16:45] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[12/May/2019 21:16:45] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[12/May/2019 21:16:45] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[12/May/2019 21:16:46] code 400, message Bad request syntax ('\x05\x01\x00')
+[12/May/2019 21:16:46] " " 400 -
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[12/May/2019 21:51:31] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[12/May/2019 22:15:04] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[12/May/2019 22:15:04] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[12/May/2019 22:15:05] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[12/May/2019 22:15:05] code 400, message Bad request syntax ('\x05\x01\x00')
+[12/May/2019 22:15:05] " " 400 -
+[12/May/2019 23:00:54] "GET / HTTP/1.1" 200 4528
+[12/May/2019 23:00:55] "GET /statics/img/icon.png HTTP/1.1" 304 0
+[12/May/2019 23:00:56] "GET / HTTP/1.1" 200 4528
+[12/May/2019 23:00:56] "GET /post/top10/ HTTP/1.1" 200 2160
+[12/May/2019 23:01:00] "GET /post/list/?page=2 HTTP/1.1" 200 3925
+[12/May/2019 23:01:00] "GET /post/top10/ HTTP/1.1" 200 2160
+[12/May/2019 23:01:54] "GET / HTTP/1.1" 200 4528
+[12/May/2019 23:01:55] "GET /post/top10/ HTTP/1.1" 200 2160
+[12/May/2019 23:01:56] "GET /post/top10 HTTP/1.1" 301 0
+[12/May/2019 23:02:00] "GET /post/list/?page=2 HTTP/1.1" 200 3925
+[12/May/2019 23:02:01] "GET /post/top10/ HTTP/1.1" 200 2160
+Not Found: /http:/10.177.152.217/proxy.html
+[13/May/2019 02:10:53] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[13/May/2019 02:10:53] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[13/May/2019 02:10:53] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[13/May/2019 02:10:54] code 400, message Bad request syntax ('\x05\x01\x00')
+[13/May/2019 02:10:54] " " 400 -
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[13/May/2019 02:43:36] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[13/May/2019 03:10:14] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[13/May/2019 03:10:14] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[13/May/2019 03:10:15] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[13/May/2019 03:10:15] code 400, message Bad request syntax ('\x05\x01\x00')
+[13/May/2019 03:10:15] " " 400 -
+Not Found: /http:/10.177.152.217/proxy.html
+[13/May/2019 07:15:39] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[13/May/2019 07:15:40] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[13/May/2019 07:15:40] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[13/May/2019 07:15:41] code 400, message Bad request syntax ('\x05\x01\x00')
+[13/May/2019 07:15:41] " " 400 -
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[13/May/2019 07:34:46] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[13/May/2019 08:10:29] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[13/May/2019 08:10:29] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[13/May/2019 08:10:30] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[13/May/2019 08:10:30] code 400, message Bad request syntax ('\x05\x01\x00')
+[13/May/2019 08:10:30] " " 400 -
+Not Found: /http:/10.177.152.217/proxy.html
+[13/May/2019 12:14:11] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[13/May/2019 12:14:11] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[13/May/2019 12:14:12] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[13/May/2019 12:14:12] code 400, message Bad request syntax ('\x05\x01\x00')
+[13/May/2019 12:14:12] " " 400 -
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[13/May/2019 12:27:01] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[13/May/2019 13:06:06] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[13/May/2019 13:06:06] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[13/May/2019 13:06:07] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[13/May/2019 13:06:08] code 400, message Bad request syntax ('\x05\x01\x00')
+[13/May/2019 13:06:08] " " 400 -
+[13/May/2019 16:04:02] "GET / HTTP/1.1" 200 4528
+[13/May/2019 16:04:02] "GET / HTTP/1.1" 200 4528
+Not Found: /http:/10.177.152.217/proxy.html
+[13/May/2019 17:06:29] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[13/May/2019 17:06:29] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[13/May/2019 17:06:30] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[13/May/2019 17:06:31] code 400, message Bad request syntax ('\x05\x01\x00')
+[13/May/2019 17:06:31] " " 400 -
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[13/May/2019 17:26:04] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[13/May/2019 18:12:22] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[13/May/2019 18:12:22] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[13/May/2019 18:12:22] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[13/May/2019 18:12:23] code 400, message Bad request syntax ('\x05\x01\x00')
+[13/May/2019 18:12:23] " " 400 -
+Not Found: /http:/www.qq.com/404/search_children.js
+[13/May/2019 19:32:55] "GET http://www.qq.com/404/search_children.js HTTP/1.1" 404 1714
+[13/May/2019 19:33:00] code 400, message Bad request syntax ('\x04\x01\x00PpTi4\x00')
+[13/May/2019 19:33:00] " PpTi4 " 400 -
+[13/May/2019 19:33:00] code 400, message Bad request syntax ('\x05\x01\x00')
+[13/May/2019 19:33:00] " " 400 -
+[13/May/2019 20:40:44] "GET / HTTP/1.1" 200 4528
+Not Found: /http:/10.177.152.217/proxy.html
+[13/May/2019 22:03:32] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[13/May/2019 22:03:32] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[13/May/2019 22:03:32] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[13/May/2019 22:03:33] code 400, message Bad request syntax ('\x05\x01\x00')
+[13/May/2019 22:03:33] " " 400 -
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[13/May/2019 22:20:21] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[13/May/2019 23:13:36] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[13/May/2019 23:13:36] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[13/May/2019 23:13:37] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[13/May/2019 23:13:37] code 400, message Bad request syntax ('\x05\x01\x00')
+[13/May/2019 23:13:37] " " 400 -
+[14/May/2019 01:00:19] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[14/May/2019 01:00:19] "    c                           " 400 -
+Not Found: /admincp.php
+[14/May/2019 01:40:46] "GET /admincp.php HTTP/1.1" 404 3671
+Not Found: /wp-login.php
+[14/May/2019 01:40:46] "GET /wp-login.php HTTP/1.1" 404 3674
+Not Found: /ucadmin/admincp.php
+[14/May/2019 01:40:48] "GET /ucadmin/admincp.php HTTP/1.1" 404 3695
+Not Found: /manage.html
+[14/May/2019 01:40:52] "GET /manage.html HTTP/1.1" 404 3671
+Not Found: /webconsole.html
+[14/May/2019 01:40:57] "GET /webconsole.html HTTP/1.1" 404 3683
+Not Found: /zabbix/dashboard.php
+[14/May/2019 01:41:00] "GET /zabbix/dashboard.php HTTP/1.1" 404 3698
+Not Found: /tasktracker.jsp
+[14/May/2019 01:41:06] "GET /tasktracker.jsp HTTP/1.1" 404 3683
+Not Found: /admin/login.jsp
+[14/May/2019 01:41:10] "GET /admin/login.jsp HTTP/1.1" 404 3683
+Not Found: /xampp/navi.php
+[14/May/2019 01:41:12] "GET /xampp/navi.php HTTP/1.1" 404 3680
+Not Found: /admin.php
+[14/May/2019 01:41:12] "GET /admin.php HTTP/1.1" 404 3665
+Not Found: /zabbix/index.php
+[14/May/2019 01:41:14] "GET /zabbix/index.php HTTP/1.1" 404 3686
+Not Found: /zabbix/setup.php
+[14/May/2019 01:41:24] "GET /zabbix/setup.php HTTP/1.1" 404 3686
+Not Found: /console/login/LoginForm.jsp
+[14/May/2019 01:41:44] "GET /console/login/LoginForm.jsp HTTP/1.1" 404 3719
+Not Found: /login.jsp
+[14/May/2019 01:43:16] "GET /login.jsp HTTP/1.1" 404 3665
+Not Found: /tomcat/
+[14/May/2019 01:43:17] "GET /tomcat/ HTTP/1.1" 404 3659
+Not Found: /pma/main.php
+[14/May/2019 01:43:17] "GET /pma/main.php HTTP/1.1" 404 3674
+Not Found: /login.html
+[14/May/2019 01:43:17] "GET /login.html HTTP/1.1" 404 3668
+Not Found: /docs
+[14/May/2019 01:43:19] "GET /docs HTTP/1.1" 404 3650
+Not Found: /_nodes/stats
+[14/May/2019 01:43:20] "GET /_nodes/stats HTTP/1.1" 404 3674
+Not Found: /zabbix
+[14/May/2019 01:43:20] "GET /zabbix HTTP/1.1" 404 3656
+Not Found: /manage
+[14/May/2019 01:43:21] "GET /manage HTTP/1.1" 404 3656
+Not Found: /uc_server/admin.php
+[14/May/2019 01:43:34] "GET /uc_server/admin.php?m=user&a=login&iframe=&sid= HTTP/1.1" 404 3735
+Not Found: /login
+[14/May/2019 01:43:34] "GET /login HTTP/1.1" 404 3653
+Not Found: /web-console/ServerInfo.jsp
+[14/May/2019 01:43:40] "GET /web-console/ServerInfo.jsp HTTP/1.1" 404 3716
+Not Found: /admin-console/
+[14/May/2019 01:43:43] "GET /admin-console/ HTTP/1.1" 404 3680
+Not Found: /manager.html
+[14/May/2019 01:43:46] "GET /manager.html HTTP/1.1" 404 3674
+Not Found: /Admin
+[14/May/2019 01:43:46] "GET /Admin HTTP/1.1" 404 3653
+Not Found: /webftp/login.php
+[14/May/2019 01:43:47] "GET /webftp/login.php HTTP/1.1" 404 3686
+Not Found: /wordpress/wp-admin/setup-config.php
+[14/May/2019 01:43:51] "GET /wordpress/wp-admin/setup-config.php HTTP/1.1" 404 3743
+Not Found: /phpmyadmin/index.php
+[14/May/2019 01:43:52] "GET /phpmyadmin/index.php HTTP/1.1" 404 3698
+Not Found: /webadmin
+[14/May/2019 01:43:55] "GET /webadmin HTTP/1.1" 404 3662
+Not Found: /cluster
+[14/May/2019 01:43:57] "GET /cluster HTTP/1.1" 404 3659
+Not Found: /dbadmin
+[14/May/2019 01:44:05] "GET /dbadmin HTTP/1.1" 404 3659
+Not Found: /Login
+[14/May/2019 01:44:06] "GET /Login HTTP/1.1" 404 3653
+Not Found: /jmx-console/filterView.jsp
+[14/May/2019 01:44:06] "GET /jmx-console/filterView.jsp HTTP/1.1" 404 3716
+Not Found: /resin-admin/
+[14/May/2019 01:44:12] "GET /resin-admin/ HTTP/1.1" 404 3674
+Not Found: /doku.php
+[14/May/2019 01:44:13] "GET /doku.php?do=admin HTTP/1.1" 404 3671
+Not Found: /manager
+[14/May/2019 01:44:19] "GET /manager HTTP/1.1" 404 3659
+Not Found: /jmx-console/
+[14/May/2019 01:44:20] "GET /jmx-console/ HTTP/1.1" 404 3674
+Not Found: /cmf/login
+[14/May/2019 01:44:21] "GET /cmf/login HTTP/1.1" 404 3665
+Not Found: /xampp/
+[14/May/2019 01:44:25] "GET /xampp/ HTTP/1.1" 404 3656
+Not Found: /poppy
+[14/May/2019 01:44:32] "GET /poppy HTTP/1.1" 404 3653
+Not Found: /status/
+[14/May/2019 01:44:41] "GET /status/ HTTP/1.1" 404 3659
+Not Found: /users/sign_in
+[14/May/2019 01:44:44] "GET /users/sign_in HTTP/1.1" 404 3677
+Not Found: /index.html
+[14/May/2019 01:44:56] "GET /index.html HTTP/1.1" 404 3668
+Not Found: /myadmin
+[14/May/2019 01:45:54] "GET /myadmin HTTP/1.1" 404 3659
+Not Found: /host-manager/html/
+[14/May/2019 01:46:06] "GET /host-manager/html/ HTTP/1.1" 404 3692
+Not Found: /phpMyAdmin/index.php
+[14/May/2019 01:46:11] "GET /phpMyAdmin/index.php HTTP/1.1" 404 3698
+Not Found: /jmx-console/HtmlAdaptor
+[14/May/2019 01:46:12] "GET /jmx-console/HtmlAdaptor HTTP/1.1" 404 3707
+Not Found: /admin
+[14/May/2019 01:46:12] "GET /admin HTTP/1.1" 404 3653
+Not Found: /jenkins/
+[14/May/2019 01:46:16] "GET /jenkins/ HTTP/1.1" 404 3662
+[14/May/2019 01:46:21] "GET / HTTP/1.1" 200 4528
+Not Found: /uc_server/
+[14/May/2019 01:46:22] "GET /uc_server/ HTTP/1.1" 404 3668
+Not Found: /tools/
+[14/May/2019 01:46:31] "GET /tools/ HTTP/1.1" 404 3656
+Not Found: /manager/html
+[14/May/2019 01:46:52] "GET /manager/html HTTP/1.1" 404 3674
+Not Found: /phpmyadmin
+[14/May/2019 01:47:40] "GET /phpmyadmin HTTP/1.1" 404 3668
+Not Found: /wp-admin/
+[14/May/2019 01:47:40] "GET /wp-admin/ HTTP/1.1" 404 3665
+Not Found: /uc_server/admin.php/
+[14/May/2019 01:47:55] "GET /uc_server/admin.php/?m=user&a=login&iframe=&sid= HTTP/1.1" 404 3738
+Not Found: /index.php
+[14/May/2019 01:50:18] "GET /index.php?m=admin&c=index&a=login&pc_hash= HTTP/1.1" 404 3710
+Not Found: /index.php
+[14/May/2019 01:51:26] "GET /index.php?title=%E7%89%B9%E6%AE%8A%3A%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95 HTTP/1.1" 404 3729
+Not Found: /owa/auth/logon.aspx
+[14/May/2019 01:52:02] "GET /owa/auth/logon.aspx HTTP/1.1" 404 3695
+Not Found: /index.php
+[14/May/2019 01:52:35] "GET /index.php?s=/admin/public/login.html HTTP/1.1" 404 3692
+Not Found: /index.php
+[14/May/2019 01:55:17] "GET /index.php?title=%E7%89%B9%E6%AE%8A%3A%E6%97%A5%E5%BF%97 HTTP/1.1" 404 3711
+Not Found: /http:/10.177.152.217/proxy.html
+[14/May/2019 03:14:50] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[14/May/2019 03:14:50] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[14/May/2019 03:14:51] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[14/May/2019 03:14:51] code 400, message Bad request syntax ('\x05\x01\x00')
+[14/May/2019 03:14:51] " " 400 -
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[14/May/2019 03:15:53] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[14/May/2019 04:13:07] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[14/May/2019 04:13:07] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[14/May/2019 04:13:07] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[14/May/2019 04:13:08] code 400, message Bad request syntax ('\x05\x01\x00')
+[14/May/2019 04:13:08] " " 400 -
+Not Found: /http:/10.177.152.217/proxy.html
+[14/May/2019 08:16:58] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[14/May/2019 08:16:59] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[14/May/2019 08:16:59] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[14/May/2019 08:17:00] code 400, message Bad request syntax ('\x05\x01\x00')
+[14/May/2019 08:17:00] " " 400 -
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[14/May/2019 08:27:24] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[14/May/2019 09:16:19] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[14/May/2019 09:16:19] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[14/May/2019 09:16:20] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[14/May/2019 09:16:20] code 400, message Bad request syntax ('\x05\x01\x00')
+[14/May/2019 09:16:20] " " 400 -
+[14/May/2019 12:24:58] "GET / HTTP/1.1" 200 4528
+Not Found: /http:/10.177.152.217/proxy.html
+[14/May/2019 13:07:53] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[14/May/2019 13:07:53] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[14/May/2019 13:07:54] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[14/May/2019 13:07:54] code 400, message Bad request syntax ('\x05\x01\x00')
+[14/May/2019 13:07:54] " " 400 -
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[14/May/2019 13:27:18] "GET / HTTP/1.0" 400 61971
+[14/May/2019 14:05:51] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00\xe0Z\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x05\x01=K\x00\x00\x00\x00d\x00\xa8\xc0\x02P\xd3')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 4: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[14/May/2019 14:35:48] "GET / HTTP/1.1" 200 4779
+[14/May/2019 14:35:48] "GET /medias/timg_55OE5cs.jpg HTTP/1.1" 304 0
+[14/May/2019 14:35:48] "GET /post/top10/ HTTP/1.1" 200 2160
+[14/May/2019 14:35:54] "GET /post/create/ HTTP/1.1" 200 3406
+[14/May/2019 14:35:54] "GET /post/top10/ HTTP/1.1" 200 2160
+[14/May/2019 14:35:56] "GET / HTTP/1.1" 200 4779
+[14/May/2019 14:35:56] "GET /post/top10/ HTTP/1.1" 200 2160
+[14/May/2019 14:37:53] "GET / HTTP/1.1" 200 4779
+[14/May/2019 14:37:54] "GET /post/top10/ HTTP/1.1" 200 2160
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 09, 2019 - 20:28:45
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+----------------------------------------
+Exception happened during processing of request from ('85.25.185.112', 58473)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('66.248.204.20', 1185)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('91.205.147.224', 54467)
+----------------------------------------
+[14/May/2019 14:49:27] "GET /post/create/ HTTP/1.1" 200 3406
+[14/May/2019 14:49:27] "GET /post/top10/ HTTP/1.1" 200 2160
+[14/May/2019 14:49:29] "GET / HTTP/1.1" 200 4779
+[14/May/2019 14:49:29] "GET /post/top10/ HTTP/1.1" 200 2160
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 14:49:14
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[14/May/2019 14:50:27] "GET /post/create/ HTTP/1.1" 200 3406
+[14/May/2019 14:50:27] "GET /post/top10/ HTTP/1.1" 200 2160
+[14/May/2019 14:50:30] "GET / HTTP/1.1" 200 4779
+[14/May/2019 14:50:30] "GET /post/top10/ HTTP/1.1" 200 2160
+[14/May/2019 14:50:36] "GET /post/create/ HTTP/1.1" 200 3406
+[14/May/2019 14:50:36] "GET /post/top10/ HTTP/1.1" 200 2160
+[14/May/2019 14:50:37] "GET / HTTP/1.1" 200 4779
+[14/May/2019 14:50:38] "GET /post/top10/ HTTP/1.1" 200 2160
+[14/May/2019 14:50:38] "GET /post/read/?post_id=26 HTTP/1.1" 200 3498
+[14/May/2019 14:50:38] "GET /post/top10/ HTTP/1.1" 200 2160
+[14/May/2019 14:50:42] "GET / HTTP/1.1" 200 4779
+[14/May/2019 14:50:42] "GET /post/top10/ HTTP/1.1" 200 2160
+[14/May/2019 14:50:43] "GET /post/read/?post_id=25 HTTP/1.1" 200 3227
+[14/May/2019 14:50:43] "GET /post/top10/ HTTP/1.1" 200 2160
+[14/May/2019 14:50:45] "GET /post/edit/?post_id=25 HTTP/1.1" 200 3704
+[14/May/2019 14:50:45] "GET /post/top10/ HTTP/1.1" 200 2160
+[14/May/2019 14:50:49] "GET / HTTP/1.1" 200 4779
+[14/May/2019 14:50:49] "GET /post/top10/ HTTP/1.1" 200 2160
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 14:50:03
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 14:56:03
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 14:59:07
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 15:00:00
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 15:01:46
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 15:03:40
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 15:05:29
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 15:06:14
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 15:06:57
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 15:08:48
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 15:10:56
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 15:11:54
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 15:12:48
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 15:13:00
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[14/May/2019 15:19:46] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 15:13:26
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[14/May/2019 16:32:26] "GET / HTTP/1.1" 200 4528
+[14/May/2019 16:32:26] "GET / HTTP/1.1" 200 4528
+Not Found: /http:/10.177.152.217/proxy.html
+[14/May/2019 18:18:12] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[14/May/2019 18:18:12] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[14/May/2019 18:18:13] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[14/May/2019 18:18:13] code 400, message Bad request syntax ('\x05\x01\x00')
+[14/May/2019 18:18:13] " " 400 -
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[14/May/2019 18:23:36] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[14/May/2019 23:06:23] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[14/May/2019 23:06:23] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[14/May/2019 23:06:23] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[14/May/2019 23:06:24] code 400, message Bad request syntax ('\x05\x01\x00')
+[14/May/2019 23:06:24] " " 400 -
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[14/May/2019 23:40:14] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[15/May/2019 00:16:18] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[15/May/2019 00:16:18] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[15/May/2019 00:16:18] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[15/May/2019 00:16:19] code 400, message Bad request syntax ('\x05\x01\x00')
+[15/May/2019 00:16:19] " " 400 -
+[15/May/2019 02:56:10] "GET / HTTP/1.1" 200 4528
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[15/May/2019 03:42:29] "GET / HTTP/1.0" 400 61972
+[2019-05-15 03:42:29,154] - Broken pipe from ('192.155.91.85', 34426)
+
+Not Found: /http:/10.177.152.217/proxy.html
+[15/May/2019 04:06:22] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[15/May/2019 04:06:22] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[15/May/2019 04:06:23] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[15/May/2019 04:06:23] code 400, message Bad request syntax ('\x05\x01\x00')
+[15/May/2019 04:06:23] " " 400 -
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[15/May/2019 04:56:14] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[15/May/2019 05:06:58] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[15/May/2019 05:06:59] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[15/May/2019 05:06:59] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[15/May/2019 05:07:00] code 400, message Bad request syntax ('\x05\x01\x00')
+[15/May/2019 05:07:00] " " 400 -
+[15/May/2019 07:45:14] "GET / HTTP/1.1" 200 4528
+Not Found: /getcfg.php
+[15/May/2019 07:45:15] "POST /getcfg.php HTTP/1.1" 404 3669
+Not Found: /advance.asp
+[15/May/2019 07:45:16] "GET /advance.asp HTTP/1.1" 404 3671
+Not Found: /cgi-bin/DownloadCfg/RouterCfm.DownloadCfg
+[15/May/2019 07:45:16] "GET /cgi-bin/DownloadCfg/RouterCfm.DownloadCfg HTTP/1.1" 404 3761
+Not Found: /cgi-bin/DownloadCfg/RouterCfm.cfg
+[15/May/2019 07:45:17] "GET /cgi-bin/DownloadCfg/RouterCfm.cfg HTTP/1.1" 404 3737
+[15/May/2019 08:26:39] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[15/May/2019 09:56:42] "GET / HTTP/1.0" 400 61971
+Not Found: /http:/10.177.152.217/proxy.html
+[15/May/2019 10:06:13] "GET http://10.177.152.217/proxy.html HTTP/1.1" 404 1694
+Not Found: /http:/10.182.6.90/proxy.html
+[15/May/2019 10:06:13] "GET http://10.182.6.90/proxy.html HTTP/1.1" 404 1682
+[15/May/2019 10:06:14] code 400, message Bad request syntax ('\x04\x01\x00P\xdc\xb5o\x94\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xdc in position 5: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[15/May/2019 10:06:14] code 400, message Bad request syntax ('\x05\x01\x00')
+[15/May/2019 10:06:14] " " 400 -
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[15/May/2019 11:14:06] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x10\x04\x01.\x05\x00\x00\x00\x00\x81I\xa8\xc0\x00')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 851, in emit
+    msg = self.format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 724, in format
+    return fmt.format(record)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib64/python2.7/logging/__init__.py", line 467, in format
+    s = self._fmt % record.__dict__
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x81 in position 25: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib64/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 15:35:43
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+----------------------------------------
+Exception happened during processing of request from ('188.138.125.155', 44398)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('104.152.52.33', 41081)
+----------------------------------------
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 15, 2019 - 14:30:52
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 15, 2019 - 14:35:01
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 15, 2019 - 14:35:44
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 15, 2019 - 14:38:09
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 15, 2019 - 14:39:00
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 15, 2019 - 14:44:28
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 15, 2019 - 14:45:35
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 15, 2019 - 14:46:15
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 15, 2019 - 14:46:30
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 15, 2019 - 14:47:02
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 15, 2019 - 14:50:59
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 15, 2019 - 14:52:22
+Django version 1.11.7, using settings 'bbs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Invalid HTTP_HOST header: u'VM_0_5_centos:8000'. The domain name provided is not valid according to RFC 1034/1035.
+[15/May/2019 14:55:14] "GET / HTTP/1.0" 400 61971
+[15/May/2019 15:00:12] "GET / HTTP/1.1" 200 4779
+[15/May/2019 15:00:12] "GET /medias/timg_55OE5cs.jpg HTTP/1.1" 304 0
+[15/May/2019 15:00:12] "GET /post/top10/ HTTP/1.1" 200 2160
+Internal Server Error: /post/read/
+Traceback (most recent call last):
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/pjct/bbs/post/helper.py", line 33, in wrapper
+    response = read_view(request)
+  File "/pjct/bbs/post/helper.py", line 21, in wrapper
+    response = view_func(request)
+  File "/pjct/bbs/post/views.py", line 76, in read_post
+    return render(request,'read_post.html',{'post':post})
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/template/loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/template/loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/template/defaulttags.py", line 315, in render
+    match = condition.eval(context)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/template/defaulttags.py", line 892, in eval
+    return self.value.resolve(context, ignore_failures=True)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/template/base.py", line 708, in resolve
+    obj = self.var.resolve(context)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/template/base.py", line 849, in resolve
+    value = self._resolve_lookup(context)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/template/base.py", line 911, in _resolve_lookup
+    current = current()
+  File "/pjct/bbs/post/models.py", line 29, in tags
+    print relations
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/db/models/query.py", line 226, in __repr__
+    data = list(self[:REPR_OUTPUT_SIZE + 1])
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/db/models/query.py", line 250, in __iter__
+    self._fetch_all()
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/db/models/query.py", line 1118, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "/pjct/bbs/.venv/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 894, in execute_sql
+    raise original_exception
+OperationalError: no such table: post_posttagrelation
+[15/May/2019 15:00:15] "GET /post/read/?post_id=26 HTTP/1.1" 500 193505
+Not Found: /favicon.ico
+[15/May/2019 15:00:16] "GET /favicon.ico HTTP/1.1" 404 3671
