@@ -39,7 +39,7 @@ class Post(models.Model):
         #当前已有的tags
         current_tags = set(self.tags())
 
-        # 找出尚未建立关联的 tag
+        # 找出尚未建立关联的 tag,列表中的相同对象也是可以使用加减法去除的。
         need_create_tags = updated_tags - current_tags
         need_create_tag_id_list = [t.id for t in need_create_tags]
         PostTagRelation.add_relations(self.id, need_create_tag_id_list)
@@ -63,6 +63,7 @@ class Comment(models.Model):
             self._auth = User.objects.get(id=self.uid)
         return self._auth
 
+#仿佛无卵用。
     @property
     def post(self):
         '''评论对应的帖子'''
@@ -97,7 +98,7 @@ class PostTagRelation(models.Model):
     @classmethod
     def del_relations(cls, post_id, tag_id_list):
         cls.objects.filter(post_id=post_id, tag_id__in=tag_id_list).delete()
-#
+
 class Tag(models.Model):
     name = models.CharField(max_length=16, unique=True)
 
