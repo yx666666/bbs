@@ -88,7 +88,7 @@ class User(models.Model):
 #
 #     @classmethod
 #     def add_relation(cls, role_id, perm_id):
-#         cls.objects.create(role_id=role_id, perm_id=perm_id)
+#         cls.objects.create(role_id=role_id, perm_id=perm_id.)
 #
 #     @classmethod
 #     def del_relation(cls, role_id, perm_id):
