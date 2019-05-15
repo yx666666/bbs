@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 #修改被除数带小数点，防止两数相除默认取整
 from __future__ import division
 from django.shortcuts import render,redirect
-from post.models import Post,Comment
+from post.models import Post, Comment, Tag
 
 from math import ceil
 from post.helper import page_cache,read_counter,get_top_n
@@ -51,11 +51,22 @@ def edit_post(request):
         post.title = request.POST.get('title')
         post.content = request.POST.get('content')
         post.save()
+
+        str_tags = request.POST.get('tags')
+        #首先，str.title(),所有单词首字母大写，replace，将中文逗号替换为英文逗号，然后按照逗号切割，切s.strip()为真的情况下。
+        #然后将得到的结果取出两端空格。
+        #先执行if s.strip语句过滤，然后执行s.strip()
+        tag_names = [s.strip()
+                     for s in str_tags.title().replace('，', ',').split(',')
+                     if s.strip()]
+        post.update_tags(tag_names)
+
         return redirect('/post/read/?post_id=%s' % post.id)
     else:
         post_id = int(request.GET.get('post_id'))
         post = Post.objects.get(pk=post_id)
-        return render(request, 'edit_post.html', {'post':post})
+        str_tags = ', '.join([t.name for t in post.tags()])
+        return render(request, 'edit_post.html', {'post':post,'tags': str_tags})
 #先计数，然后缓存，
 @read_counter
 @page_cache(2)
@@ -100,3 +111,10 @@ def del_comment(request):
     Comment.objects.get(id=comment_id).delete()
     post_id = int(request.GET.get('post_id'))
     return redirect('/post/read/?post_id=%s' % post_id)
+
+
+
+def tag_filter(request):
+    tag_id = int(request.GET.get('tag_id'))
+    tag = Tag.objects.get(id=tag_id)
+    return render(request, 'tag_filter.html', {'tag': tag})
