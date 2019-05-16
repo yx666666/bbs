@@ -51,6 +51,7 @@ def login(request):
 
         if check_password(password, user.password):
             # 记录登陆状态
+            request.session['user'] = user
             request.session['uid'] = user.id
             request.session['nickname'] = user.nickname
             request.session['avatar'] = user.avatar
@@ -87,6 +88,7 @@ def weibo_callback(request):
                 user.plt_icon = plt_icon
                 user.save()
             # 记录登陆状态
+            request.session['user'] = user
             request.session['uid'] = user.id
             request.session['nickname'] = user.nickname
             request.session['avatar'] = user.avatar

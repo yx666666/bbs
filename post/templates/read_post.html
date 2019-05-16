@@ -6,10 +6,11 @@
 <div>
     作者：<span style="color: red;">{{ post.auth.nickname }}</span>
     {{post.created | date:"Y-m-d H:i:s"}}
-    {% if request.session.uid == post.uid %}
+    {% if request.session.uid == post.uid or 'manager' in  roles or 'admin' in roles %}
     <a href="/post/edit/?post_id={{post.id}}">修改</a>
         <a href="/post/delete/?post_id={{post.id}}">删除</a>
     {% endif %}
+
 
 </div>
 <hr>
@@ -41,9 +42,10 @@
         <div><strong>姓名：</strong>{{comment.auth.nickname}}</div>
         <div><strong>时间：</strong>{{comment.created | date:"Y-m-d H:i:s"}}</div>
         <div><strong>内容：</strong>{{comment.content|safe|escape|linebreaks}}</div>
-        {% if request.session.uid ==  comment.uid %}
+        {% if 'manager' in  roles or 'admin' in roles or request.session.uid == post.uid%}
             <div><a href="/post/del_comment/?comment_id={{comment.id}}&post_id={{post.id}}">删除评论</a></div>
         {% endif %}
+
 
     </p>
     {% if not forloop.last %}<hr>{% endif %}
