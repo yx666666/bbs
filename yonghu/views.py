@@ -10,6 +10,7 @@ from yonghu.forms import RegisterForm
 from yonghu.models import User
 from django.contrib.auth.hashers import make_password,check_password
 from yonghu.helper import login_required
+from yonghu.models import UserRoleRelation,Role
 
 # Create your views here.
 def register(request):
@@ -25,6 +26,10 @@ def register(request):
             user = form.save(commit=False)
             user.password = make_password(user.password)
             user.save()
+            #给默认注册的用户添加user权限。
+            user_role = Role.objects.get(name='user')
+            UserRoleRelation.add_relation(user.id,user_role.id)
+
 
             #注册完直接登陆。session本质上是一个字典。
 

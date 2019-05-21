@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 from __future__ import division
 from django.shortcuts import render,redirect
 from post.models import Post, Comment, Tag
+from yonghu.models import User
 
 from math import ceil
 from post.helper import page_cache,read_counter,get_top_n
@@ -78,7 +79,11 @@ def edit_post(request):
 def read_post(request):
     post_id = int(request.GET.get('post_id'))
     post = Post.objects.get(pk=post_id)
-    #获取用户权限级别及拥有的权限
+
+    #获取用户权限级别及拥有的权限,如果是没有登陆的状态，那么直接跳到阅读页。
+    a = request.session
+    if 'user' not in a:
+        return render(request, 'read_post.html', {'post': post, 'roles': []})
     user = request.session['user']
     role = user.roles()
     roles = [u.name for u in role]
@@ -91,7 +96,11 @@ def delete_post(request):
     post_id = int(request.GET.get('post_id'))
     post = Post.objects.get(pk=post_id)
     #防止用户直接输入url删除帖子。
-    if request.session['uid'] == post.uid:
+    user = request.session['user']
+    roles = user.roles()
+    roles = [r.name for r in roles]
+
+    if request.session['uid'] == post.uid or 'manager' in  roles or 'admin' in roles:
         post.delete()
         return redirect('/')
     return render(request, 'blockers.html')
