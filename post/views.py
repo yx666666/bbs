@@ -4,10 +4,11 @@ from __future__ import unicode_literals
 from __future__ import division
 from django.shortcuts import render,redirect
 from post.models import Post, Comment, Tag
+from yonghu.models import User
 
 from math import ceil
 from post.helper import page_cache,read_counter,get_top_n
-from yonghu.helper import login_required
+from yonghu.helper import login_required,check_perm
 import time
 # Create your views here.
 
@@ -34,6 +35,7 @@ def post_list(request):
     return render(request,'post_list.html',{'posts':posts,'pages':xrange(pages)})
 
 @login_required
+@check_perm('add_post')
 def create_post(request):
     if request.method == 'POST':
         uid = request.session.get('uid')
@@ -65,21 +67,43 @@ def edit_post(request):
     else:
         post_id = int(request.GET.get('post_id'))
         post = Post.objects.get(pk=post_id)
-        str_tags = ', '.join([t.name for t in post.tags()])
-        return render(request, 'edit_post.html', {'post':post,'tags': str_tags})
+        #防止用户直接输入url进入。
+        if request.session['uid'] == post.uid:
+            str_tags = ', '.join([t.name for t in post.tags()])
+            return render(request, 'edit_post.html', {'post':post,'tags': str_tags})
+        else:
+            return render(request,'blockers.html')
 #先计数，然后缓存，
 @read_counter
-@page_cache(2)
+@page_cache(1)
 def read_post(request):
     post_id = int(request.GET.get('post_id'))
     post = Post.objects.get(pk=post_id)
-    return render(request,'read_post.html',{'post':post})
+
+    #获取用户权限级别及拥有的权限,如果是没有登陆的状态，那么直接跳到阅读页。
+    a = request.session
+    if 'user' not in a:
+        return render(request, 'read_post.html', {'post': post, 'roles': []})
+    user = request.session['user']
+    role = user.roles()
+    roles = [u.name for u in role]
+
+    return render(request,'read_post.html',{'post':post,'roles':roles})
 
 @login_required
+@check_perm('del_post')
 def delete_post(request):
     post_id = int(request.GET.get('post_id'))
-    Post.objects.get(pk=post_id).delete()
-    return redirect('/')
+    post = Post.objects.get(pk=post_id)
+    #防止用户直接输入url删除帖子。
+    user = request.session['user']
+    roles = user.roles()
+    roles = [r.name for r in roles]
+
+    if request.session['uid'] == post.uid or 'manager' in  roles or 'admin' in roles:
+        post.delete()
+        return redirect('/')
+    return render(request, 'blockers.html')
 
 def search(request):
     keyword = request.POST.get('keyword')
@@ -96,6 +120,7 @@ def top10(request):
     return render(request, 'top10.html', {'rank_data': rank_data})
 
 @login_required
+@check_perm('add_comment')
 def comment(request):
     uid = request.session['uid']
     post_id = request.POST.get('post_id')
@@ -106,6 +131,7 @@ def comment(request):
 
 #前端限制了，如果帖子id与用户不一样的时候，没有删除功能
 @login_required
+@check_perm('del_comment')
 def del_comment(request):
     comment_id = int(request.GET.get('comment_id'))
     Comment.objects.get(id=comment_id).delete()

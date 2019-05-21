@@ -105,16 +105,16 @@ def login_required(view_func):
     return check
 
 
-# def check_perm(perm_name):
-#     '''检查用户是否具有某种权限'''
-#     def check(view_func):
-#         def wrapper(request):
-#             uid = request.session['uid']
-#             user = User.objects.get(id=uid)
-#
-#             if user.has_perm(perm_name):
-#                 return view_func(request)
-#             else:
-#                 return render(request, 'blockers.html')
-#         return wrapper
-#     return check
+def check_perm(perm_name):
+    '''检查用户是否具有某种权限'''
+    def check(view_func):
+        def wrapper(request):
+            uid = request.session['uid']
+            user = User.objects.get(id=uid)
+
+            if user.has_perm(perm_name):
+                return view_func(request)
+            else:
+                return render(request, 'blockers.html')
+        return wrapper
+    return check

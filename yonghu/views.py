@@ -10,6 +10,7 @@ from yonghu.forms import RegisterForm
 from yonghu.models import User
 from django.contrib.auth.hashers import make_password,check_password
 from yonghu.helper import login_required
+from yonghu.models import UserRoleRelation,Role
 
 # Create your views here.
 def register(request):
@@ -25,6 +26,10 @@ def register(request):
             user = form.save(commit=False)
             user.password = make_password(user.password)
             user.save()
+            #给默认注册的用户添加user权限。
+            user_role = Role.objects.get(name='user')
+            UserRoleRelation.add_relation(user.id,user_role.id)
+
 
             #注册完直接登陆。session本质上是一个字典。
 
@@ -51,6 +56,7 @@ def login(request):
 
         if check_password(password, user.password):
             # 记录登陆状态
+            request.session['user'] = user
             request.session['uid'] = user.id
             request.session['nickname'] = user.nickname
             request.session['avatar'] = user.avatar
@@ -87,6 +93,7 @@ def weibo_callback(request):
                 user.plt_icon = plt_icon
                 user.save()
             # 记录登陆状态
+            request.session['user'] = user
             request.session['uid'] = user.id
             request.session['nickname'] = user.nickname
             request.session['avatar'] = user.avatar
