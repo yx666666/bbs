@@ -11,6 +11,7 @@ from yonghu.models import User
 from django.contrib.auth.hashers import make_password,check_password
 from yonghu.helper import login_required
 from yonghu.models import UserRoleRelation,Role
+from django.http import JsonResponse
 
 # Create your views here.
 def register(request):
@@ -100,3 +101,86 @@ def weibo_callback(request):
             return redirect('/user/info/')
     return render(request, 'login.html',
                   {'error': '微博访问异常', 'auth_url': settings.WB_AUTH_URL})
+
+#admin用户管理用户模块。
+@login_required
+def user_gl(request):
+    name = request.POST.get('name')
+    uid = request.session.get('uid')
+    user = User.objects.get(id=uid)
+    return render(request, 'user_gl.html', {'user': user})
+
+#查询使用ajax
+def query_role(request):
+    name = request.GET.get('name')
+    #如果用户存在，那么返回用户信息。并展示已拥有权限和可添加权限。
+    data = {
+    }
+    try:
+        name = User.objects.get(nickname=name)
+        role_list = [ i[1] for i in name.roles().values_list()]
+        role_all =[ i for i in ['user', 'admin', 'manager']]
+        no_list = [i for i in role_all if i not in role_list]
+        data = {
+            'role_list':role_list,
+            'no_list':no_list,
+            'fuck': 1,
+        }
+    except:
+        data = {
+            'message':'用户名不存在,请重新输入,请等待页面刷新。'
+        }
+    return JsonResponse(data)
+
+
+def change_role(request):
+    name = request.GET.get('name')
+    juese = request.GET.get('juese')
+    #如果用户存在，那么返回用户信息。并展示已拥有权限和可添加权限。
+    data = {
+    }
+    try:
+        name = User.objects.get(nickname=name)
+        juese_id = Role.objects.get(name=juese).id
+
+        role_list = [ i[1] for i in name.roles().values_list()]
+        role_all =[ i for i in ['user', 'admin', 'manager']]
+        no_list = [i for i in role_all if i not in role_list]
+        #如果输入的是已有的，表示要删除的。
+        if juese in role_list:
+            role_list.remove(juese)
+            no_list.append(juese)
+            data = {
+                'role_list': role_list,
+                'no_list': no_list,
+                'fuck': 1,
+            }
+
+            UserRoleRelation.del_relation(name.id,juese_id)
+
+        #表示要添加
+        elif juese in no_list:
+            no_list.remove(juese)
+            role_list.append(juese)
+            data = {
+                'role_list': role_list,
+                'no_list': no_list,
+                'fuck': 2,
+            }
+            UserRoleRelation.add_relation(name.id, juese_id)
+    #如果输入的角色不存在，说明输入错误。
+    except:
+        data = {
+            'message':'您输入的角色名不存在。',
+            'fuck':3
+        }
+
+    return JsonResponse(data)
+
+def del_role(request):
+    name = request.GET.get('name')
+    User.objects.get(nickname=name).delete()
+    data = {
+        'message':'删除用户成功。'
+    }
+    return JsonResponse(data)

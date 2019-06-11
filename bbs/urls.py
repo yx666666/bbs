@@ -38,6 +38,12 @@ urlpatterns = [
     url(r'^user/login/', user_view.login),
     url(r'^user/logout/', user_view.logout),
     url(r'^user/info/', user_view.user_info),
+    url(r'^user/gl/', user_view.user_gl),
+
+    url(r'^query_role/', user_view.query_role),
+    url(r'^change_role/', user_view.change_role),
+    url(r'^del_role/', user_view.del_role),
+
 
     url(r'^weibo/callback/', user_view.weibo_callback),
 ]
