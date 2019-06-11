@@ -30,7 +30,16 @@ def post_list(request):
     # uid = request.session.get('uid')
     # wposts = Post.objects.filter(uid=uid)
     # cd = len(wposts.values())
-
+    #检查如果是admin,显示出管理人员的权限按钮。
+    a = request.session
+    if 'user' in a:
+        user = request.session['user']
+        role = user.roles()
+        roles = [u.name for u in role]
+        if 'admin' in roles:
+            print user.nickname
+            return render(request, 'post_list.html', {'posts': posts, 'pages': xrange(pages),
+                                                      'admin':'admin'},)
 
     return render(request,'post_list.html',{'posts':posts,'pages':xrange(pages)})
 

@@ -32,6 +32,9 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/post/create/">发表新帖</a></li>
                 {% if "uid" in request.session %}
+                    {% if admin == 'admin' %}
+                        <li><a href="/user/gl/">管理</a></li>
+                    {% endif %}
                     <li><a  href="/user/info/">Hello, {{request.session.nickname}}</a></li>
                     <li>
                         <a class="navbar-brand" href="/user/info/">

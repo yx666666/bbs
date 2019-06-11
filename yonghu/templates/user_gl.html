@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block container %}
+<div class="form-horizontal">
+    <div class="form-group">
+        <label class="col-sm-2 control-label">管理员大人</label>
+                <div class="col-sm-5">
+            <input class="form-control" value="{{'admin'}}" readonly>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">查询</label>
+        <div class="col-sm-5">
+            <input id="srusername" class="form-control"  placeholder={{'请输入用户名'}}>
+            <span id="cuo" style="color: red"></span>
+            <span style="position: relative;left: 100px;top: 10px;">
+                <button type="submit" class="btn btn-info" onclick="query_btn()" style="position: relative;right:30px;">
+                    查询
+                </button>
+                <button type="submit" class="btn btn-info" onclick="del_btn()">
+                    删除用户
+                </button>
+            </span>
+        </div>
+    </div>
+
+    <div id="juese" class="form-group" style="visibility:hidden">
+        <label class="col-sm-2 control-label">角色</label>
+        <div class="col-sm-5">
+            <span id="role" style="position:relative;top: 7px;"></span>
+        </div>
+    </div>
+
+    <div id="ktjjs" class="form-group" style="visibility:hidden">
+        <label class="col-sm-2 control-label">可添加角色</label>
+        <div class="col-sm-5">
+            <span id="ktj" style="position:relative;top: 7px;"></span>
+        </div>
+    </div>
+    <div>
+        <span><hr></span>
+    </div>
+    <span id="tsxx" style="visibility:hidden;position: relative;left: 70px;">输入已有角色，点变更会删除，输入没有角色会添加，输入错误请重新输入。</span>
+    <span><hr></span>
+    <div id="tjsc"  class="form-group" style="visibility:hidden">
+        <label class="col-sm-2 control-label">修改</label>
+        <div class="col-sm-5">
+            <input id="juesename" class="form-control"  placeholder={{'请输入角色名'}}>
+            <span id="cuo2" style="color: red;"></span>
+            <span style="position: relative;left: 100px;top: 10px;">
+                <button type="submit" class="btn btn-info" onclick="change_btn()">
+                    变更
+                </button>
+            </span>
+        </div>
+    </div>
+
+
+</div>
+
+    <div>
+
+    </div>
+    <script>
+        function query_btn() {
+            var name = document.getElementById('srusername').value;
+            $.getJSON('/query_role/',{'name': name} ,function (data) {
+                if(data.fuck == 1){
+                    role.innerHTML = data.role_list;
+                    ktj.innerHTML = data.no_list;
+                    document.getElementById("juese").style.visibility="visible";
+                    document.getElementById("ktjjs").style.visibility="visible";
+                    document.getElementById("tjsc").style.visibility="visible";
+                    document.getElementById("tsxx").style.visibility="visible";
+                } else{
+                     cuo.innerHTML=data.message;
+                    var int=self.setInterval("sleep()",3000);
+                }
+                }
+            )
+        }
+
+        function change_btn() {
+            var name = document.getElementById('srusername').value;
+            var juese = document.getElementById('juesename').value;
+            $.getJSON('/change_role/',{'name': name,'juese':juese} ,function (data) {
+                if(data.fuck == 1){
+                    role.innerHTML = data.role_list;
+                    ktj.innerHTML = data.no_list;
+                    document.getElementById("juese").style.visibility="visible";
+                    document.getElementById("ktjjs").style.visibility="visible";
+                    document.getElementById("tjsc").style.visibility="visible";
+                    document.getElementById("tsxx").style.visibility="visible";
+                } else if (data.fuck == 2){
+                     role.innerHTML = data.role_list;
+                     ktj.innerHTML = data.no_list;
+                } else if (data.fuck == 3){
+                    cuo2.innerHTML=data.message;
+                }
+
+                }
+            )
+
+        }
+
+        function del_btn() {
+            var name = document.getElementById('srusername').value;
+            $.getJSON('/del_role/',{'name': name} ,function (data) {
+                alert(data.message)
+                location.reload();
+                }
+            )
+        }
+
+        function sleep() {
+            location.reload();
+                    }
+
+
+    </script>
+{% endblock %}
+
+
